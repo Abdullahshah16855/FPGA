@@ -1,0 +1,1159 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Sep  8 22:39:29 2022
+# Process ID: 14728
+# Current directory: C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15272 C:\Abbas_Setup\FYP_Material\New_PC_Progress\Improve_Latencies\MACD_Optimization\Top_Level_Design\MACD\MACD.xpr
+# Log file: C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/vivado.log
+# Journal file: C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 789.293 ; gain = 63.086
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -view {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 812.859 ; gain = 13.480
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/xsim.dir/top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep  8 22:52:55 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 853.852 ; gain = 0.129
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 856.121 ; gain = 0.000
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 856.375 ; gain = 0.000
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+run 5775 ns
+save_wave_config {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg}
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 877.246 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 877.246 ; gain = 0.000
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 887.180 ; gain = 0.000
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 888.594 ; gain = 0.000
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 888.594 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+save_wave_config {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 21 elements ; expected 33 [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd:64]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 9 elements ; expected 17 [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -view {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 898.949 ; gain = 5.141
+run 5775 ns
+save_wave_config {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 21 elements ; expected 17 [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 18 elements ; expected 17 [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -view {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 898.984 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+save_wave_config {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 21 elements ; expected 17 [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -view {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 902.258 ; gain = 0.000
+run 5775 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim/MACD_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b20a6131d3cb417ca0f29e79f231f962 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=17,data_width=17...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=22)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=17)\]
+Compiling architecture arch of entity xil_defaultlib.ema12 [ema12_default]
+Compiling architecture arch of entity xil_defaultlib.ema26 [ema26_default]
+Compiling architecture arch of entity xil_defaultlib.ema9 [ema9_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 902.465 ; gain = 0.207
+run 5775 ns
+save_wave_config {C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/top_tb_behav.wcfg}
+launch_runs impl_1 -jobs 4
+[Fri Sep  9 00:39:10 2022] Launched synth_1...
+Run output will be captured here: C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.runs/synth_1/runme.log
+[Fri Sep  9 00:39:10 2022] Launched impl_1...
+Run output will be captured here: C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 107 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.150 . Memory (MB): peak = 1252.820 ; gain = 1.297
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.150 . Memory (MB): peak = 1252.820 ; gain = 1.297
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 34 instances
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 1378.676 ; gain = 451.574
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+ERROR: [Common 17-697] get_ports: option '-of_objects' requires explicit objects, e.g. -of_objects [get_cells lut2], implicit search for '-of_objects' using name or pattern is not supported.
+create_clock -period 10.000 -name clk -waveform {0.000 5.000} -add [get_ports clk]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+file mkdir C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.srcs/constrs_1/new
+close [ open C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.srcs/constrs_1/new/clk.xdc w ]
+add_files -fileset constrs_1 C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.srcs/constrs_1/new/clk.xdc
+set_property target_constrs_file C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Top_Level_Design/MACD/MACD.srcs/constrs_1/new/clk.xdc [current_fileset -constrset]
+save_constraints -force
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  9 00:46:01 2022...

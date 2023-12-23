@@ -1,0 +1,14 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_down.vhd,1661803353,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,,,down_dp,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_up.vhd,1661796716,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,,,up_dp,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/RAM.vhd,1661854724,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,,,ram,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/controller.vhd,1661880430,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top.vhd,,,controller,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/counter.vhd,1654014929,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_down.vhd;C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_up.vhd;C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,,,countern,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,1661880547,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top.vhd,,,datapath,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/div_rom14.vhd,1661792729,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_down.vhd;C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_up.vhd,,,div_rom14,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/reg.vhd,1654014926,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_down.vhd;C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/Aroon_up.vhd;C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd,,,reg,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top.vhd,1661839689,vhdl,C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top_tb.vhd,,,top,,,,,,,,
+C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top_tb.vhd,1661804420,vhdl,,,,top_tb,,,,,,,,

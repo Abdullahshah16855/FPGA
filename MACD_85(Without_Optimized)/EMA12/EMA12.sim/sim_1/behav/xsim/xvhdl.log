@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Critical_Path_Analysis/EMA_Opt/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Critical_Path_Analysis/EMA_Opt/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/Critical_Path_Analysis/EMA_Opt/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3965000001fs"></ZoomEndTime>
+      <Cursor1Time time="1950000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="126"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/cp_in" type="array">
+      <obj_property name="ElementShortName">cp_in[16:0]</obj_property>
+      <obj_property name="ObjectShortName">cp_in[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/i" type="array">
+      <obj_property name="ElementShortName">i[16:0]</obj_property>
+      <obj_property name="ObjectShortName">i[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/ema12_out" type="array">
+      <obj_property name="ElementShortName">ema12_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ema12_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/cp_out" type="array">
+      <obj_property name="ElementShortName">cp_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">cp_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider59">
+      <obj_property name="label">Control Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/li" type="logic">
+      <obj_property name="ElementShortName">li</obj_property>
+      <obj_property name="ObjectShortName">li</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/ei" type="logic">
+      <obj_property name="ElementShortName">ei</obj_property>
+      <obj_property name="ObjectShortName">ei</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/sel_1" type="logic">
+      <obj_property name="ElementShortName">sel_1</obj_property>
+      <obj_property name="ObjectShortName">sel_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/sel_2" type="logic">
+      <obj_property name="ElementShortName">sel_2</obj_property>
+      <obj_property name="ObjectShortName">sel_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/en_reg1" type="logic">
+      <obj_property name="ElementShortName">en_reg1</obj_property>
+      <obj_property name="ObjectShortName">en_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/en_reg2" type="logic">
+      <obj_property name="ElementShortName">en_reg2</obj_property>
+      <obj_property name="ObjectShortName">en_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/en_reg3" type="logic">
+      <obj_property name="ElementShortName">en_reg3</obj_property>
+      <obj_property name="ObjectShortName">en_reg3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/en_reg4" type="logic">
+      <obj_property name="ElementShortName">en_reg4</obj_property>
+      <obj_property name="ObjectShortName">en_reg4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/reg1_rst" type="logic">
+      <obj_property name="ElementShortName">reg1_rst</obj_property>
+      <obj_property name="ObjectShortName">reg1_rst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider69">
+      <obj_property name="label">Status Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/Go" type="logic">
+      <obj_property name="ElementShortName">Go</obj_property>
+      <obj_property name="ObjectShortName">Go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/Zi12" type="logic">
+      <obj_property name="ElementShortName">Zi12</obj_property>
+      <obj_property name="ObjectShortName">Zi12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/gt12" type="logic">
+      <obj_property name="ElementShortName">gt12</obj_property>
+      <obj_property name="ObjectShortName">gt12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/Zmax" type="logic">
+      <obj_property name="ElementShortName">Zmax</obj_property>
+      <obj_property name="ObjectShortName">Zmax</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider75">
+      <obj_property name="label">Signals to watch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/en_reg1" type="logic">
+      <obj_property name="ElementShortName">en_reg1</obj_property>
+      <obj_property name="ObjectShortName">en_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/cp_out" type="array">
+      <obj_property name="ElementShortName">cp_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">cp_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/reg1_out" type="array">
+      <obj_property name="ElementShortName">reg1_out[21:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/adder1_out" type="array">
+      <obj_property name="ElementShortName">adder1_out[21:0]</obj_property>
+      <obj_property name="ObjectShortName">adder1_out[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/in_1" type="array">
+      <obj_property name="ElementShortName">in_1[21:0]</obj_property>
+      <obj_property name="ObjectShortName">in_1[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/EMA12_inst/en_reg1" type="logic">
+      <obj_property name="ElementShortName">en_reg1</obj_property>
+      <obj_property name="ObjectShortName">en_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/EMA12_inst/reg1_out" type="array">
+      <obj_property name="ElementShortName">reg1_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/in_2" type="array">
+      <obj_property name="ElementShortName">in_2[16:0]</obj_property>
+      <obj_property name="ObjectShortName">in_2[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/EMA12_inst/adder_out" type="array">
+      <obj_property name="ElementShortName">adder_out[32:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_out[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/ema12_out" type="array">
+      <obj_property name="ElementShortName">ema12_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ema12_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/sel_3" type="logic">
+      <obj_property name="ElementShortName">sel_3</obj_property>
+      <obj_property name="ObjectShortName">sel_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/Zi26" type="logic">
+      <obj_property name="ElementShortName">Zi26</obj_property>
+      <obj_property name="ObjectShortName">Zi26</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/gt26" type="logic">
+      <obj_property name="ElementShortName">gt26</obj_property>
+      <obj_property name="ObjectShortName">gt26</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/ema26_out" type="array">
+      <obj_property name="ElementShortName">ema26_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ema26_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group258" type="group">
+      <obj_property name="label">EMA9</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/macd" type="array">
+      <obj_property name="ElementShortName">macd[16:0]</obj_property>
+      <obj_property name="ObjectShortName">macd[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/macd" type="array">
+      <obj_property name="ElementShortName">macd[16:0]</obj_property>
+      <obj_property name="ObjectShortName">macd[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/ema9_out" type="array">
+      <obj_property name="ElementShortName">ema9_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ema9_out[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/macd" type="array">
+      <obj_property name="ElementShortName">macd[16:0]</obj_property>
+      <obj_property name="ObjectShortName">macd[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/macd_signal" type="array">
+      <obj_property name="ElementShortName">macd_signal[16:0]</obj_property>
+      <obj_property name="ObjectShortName">macd_signal[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath/order_signal" type="array">
+      <obj_property name="ElementShortName">order_signal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">order_signal[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

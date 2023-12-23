@@ -1,0 +1,29 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 97066d53466f429fb2e406500f8cb2c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [\countern(n=18)\]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=18,data_width=18...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=18)\]
+Compiling architecture up of entity xil_defaultlib.countern [countern_default]
+Compiling architecture behavioral of entity xil_defaultlib.div_rom14 [div_rom14_default]
+Compiling architecture arch of entity xil_defaultlib.up_dp [up_dp_default]
+Compiling architecture arch of entity xil_defaultlib.down_dp [down_dp_default]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=8)\]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav

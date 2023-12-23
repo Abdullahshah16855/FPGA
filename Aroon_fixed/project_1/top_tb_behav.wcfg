@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="33295800000fs"></ZoomStartTime>
+      <ZoomEndTime time="33492000001fs"></ZoomEndTime>
+      <Cursor1Time time="33460000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/i" type="array">
+      <obj_property name="ElementShortName">i[17:0]</obj_property>
+      <obj_property name="ObjectShortName">i[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/j" type="array">
+      <obj_property name="ElementShortName">j[17:0]</obj_property>
+      <obj_property name="ObjectShortName">j[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/high_price" type="array">
+      <obj_property name="ElementShortName">high_price[17:0]</obj_property>
+      <obj_property name="ObjectShortName">high_price[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/low_price" type="array">
+      <obj_property name="ElementShortName">low_price[17:0]</obj_property>
+      <obj_property name="ObjectShortName">low_price[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/addr_read" type="array">
+      <obj_property name="ElementShortName">addr_read[17:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_read[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/en_reg1" type="logic">
+      <obj_property name="ElementShortName">en_reg1</obj_property>
+      <obj_property name="ObjectShortName">en_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/S1" type="logic">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/ramA_out" type="array">
+      <obj_property name="ElementShortName">ramA_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ramA_out[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/reg1_out" type="array">
+      <obj_property name="ElementShortName">reg1_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/Zj_max" type="logic">
+      <obj_property name="ElementShortName">Zj_max</obj_property>
+      <obj_property name="ObjectShortName">Zj_max</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/enH" type="logic">
+      <obj_property name="ElementShortName">enH</obj_property>
+      <obj_property name="ObjectShortName">enH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/lh" type="logic">
+      <obj_property name="ElementShortName">lh</obj_property>
+      <obj_property name="ObjectShortName">lh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/gtH" type="logic">
+      <obj_property name="ElementShortName">gtH</obj_property>
+      <obj_property name="ObjectShortName">gtH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/up_inst/clrH" type="logic">
+      <obj_property name="ElementShortName">clrH</obj_property>
+      <obj_property name="ObjectShortName">clrH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/Aroon_up" type="array">
+      <obj_property name="ElementShortName">Aroon_up[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Aroon_up[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/Aroon_down" type="array">
+      <obj_property name="ElementShortName">Aroon_down[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Aroon_down[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Done" type="logic">
+      <obj_property name="ElementShortName">Done</obj_property>
+      <obj_property name="ObjectShortName">Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/en_reg1" type="logic">
+      <obj_property name="ElementShortName">en_reg1</obj_property>
+      <obj_property name="ObjectShortName">en_reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/en_reg2" type="logic">
+      <obj_property name="ElementShortName">en_reg2</obj_property>
+      <obj_property name="ObjectShortName">en_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/ramB_out" type="array">
+      <obj_property name="ElementShortName">ramB_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ramB_out[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/reg1_out" type="array">
+      <obj_property name="ElementShortName">reg1_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/lwL" type="logic">
+      <obj_property name="ElementShortName">lwL</obj_property>
+      <obj_property name="ObjectShortName">lwL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/clrL" type="logic">
+      <obj_property name="ElementShortName">clrL</obj_property>
+      <obj_property name="ObjectShortName">clrL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/LL" type="logic">
+      <obj_property name="ElementShortName">LL</obj_property>
+      <obj_property name="ObjectShortName">LL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/enL" type="logic">
+      <obj_property name="ElementShortName">enL</obj_property>
+      <obj_property name="ObjectShortName">enL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/down_inst/down_count" type="array">
+      <obj_property name="ElementShortName">down_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">down_count[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

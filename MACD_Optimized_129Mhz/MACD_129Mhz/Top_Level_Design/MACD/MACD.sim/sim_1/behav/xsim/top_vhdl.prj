@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../reg.vhd" \
+"../../../../../EMA12.vhd" \
+"../../../../../RAM.vhd" \
+"../../../../../controller.vhd" \
+"../../../../../counter.vhd" \
+"../../../../../datapath.vhd" \
+"../../../../../top.vhd" \
+
+# Do not sort compile order
+nosort

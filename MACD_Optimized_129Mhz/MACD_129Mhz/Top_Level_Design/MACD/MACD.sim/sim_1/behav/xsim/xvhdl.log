@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/EMA12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema12
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/EMA26.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema26
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/EMA9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ema9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity countern
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/MACD_Optimization/MACD_129Mhz/Top_Level_Design/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

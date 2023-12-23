@@ -1,0 +1,448 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13092 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 356.250 ; gain = 99.469
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/top.vhd:23]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/datapath.vhd:41]
+	Parameter N bound to: 20 - type: integer 
+	Parameter L bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/counter.vhd:18]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern' (1#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/RAM.vhd:22]
+	Parameter addr_width bound to: 20 - type: integer 
+	Parameter data_width bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RAM' (2#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/RAM.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/div_rom.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (3#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/div_rom.vhd:39]
+INFO: [Synth 8-638] synthesizing module '\reg ' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/reg.vhd:18]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (4#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/reg.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (5#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/datapath.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/controller.vhd:33]
+INFO: [Synth 8-226] default block is never used [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/controller.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'controller' (6#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/controller.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'top' (7#1) [C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/top.vhd:23]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[20]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[13]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[12]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[11]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[19]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[18]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[17]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[16]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[15]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[14]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[13]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[12]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[11]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[10]
+WARNING: [Synth 8-3331] design RAM has unconnected port ADDR[9]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 412.414 ; gain = 155.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 412.414 ; gain = 155.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 412.414 ; gain = 155.633
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'controller'
+INFO: [Synth 8-5544] ROM "Li" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Csel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Done" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_wait |                               11 |                               00
+                  s_load |                               10 |                               01
+                 s_count |                               01 |                               10
+                  s_done |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 435.805 ; gain = 179.023
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 6     
++---Registers : 
+	               20 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module countern 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 6     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP datapath_inst/multOp, operation Mode is: A*(B:0x64).
+DSP Report: operator datapath_inst/multOp is absorbed into DSP datapath_inst/multOp.
+DSP Report: Generating DSP datapath_inst/multOp, operation Mode is: A*(B:0x64).
+DSP Report: operator datapath_inst/multOp is absorbed into DSP datapath_inst/multOp.
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[19]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[18]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[17]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[16]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[15]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[14]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[13]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[12]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[11]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[10]
+WARNING: [Synth 8-3331] design top has unconnected port RdAddr[9]
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[7]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[7]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[8]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[8]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[9]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[9]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[10]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[10]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[11]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[11]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[12]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[12]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[12]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[12]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[13]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[13]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[13]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[13]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[14]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[14]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[14]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[14]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[15]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[15]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[15]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[15]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[16]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[16]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[16]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[16]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[17]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[17]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[17]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[17]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[18]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[18]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[18]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_up/output_reg[18]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[19]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_Previous_Arron_down/output_reg[19]' (FDRE) to 'datapath_inst/reg_Previous_Arron_up/output_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/reg_Previous_Arron_up/output_reg[19] )
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Previous_Arron_up/output_reg[19]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+----------------------------------+---------------+----------------+
+|Module Name | RTL Object                       | Depth x Width | Implemented As | 
++------------+----------------------------------+---------------+----------------+
+|ROM         | memory[0]                        | 2048x7        | LUT            | 
+|top         | datapath_inst/Rom_high/memory[0] | 2048x7        | LUT            | 
+|top         | datapath_inst/Rom_low/memory[0]  | 2048x7        | LUT            | 
++------------+----------------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------------------------------+-----------+----------------------+------------------+
+|Module Name | RTL Object                         | Inference | Size (Depth x Width) | Primitives       | 
++------------+------------------------------------+-----------+----------------------+------------------+
+|top         | datapath_inst/RAM_A/ram_memory_reg | Implied   | 512 x 20             | RAM256X1S x 40   | 
+|top         | datapath_inst/RAM_B/ram_memory_reg | Implied   | 512 x 20             | RAM256X1S x 40   | 
++------------+------------------------------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|datapath    | A*(B:0x64)  | 11     | 7      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|datapath    | A*(B:0x64)  | 11     | 7      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+------------------------------------+-----------+----------------------+------------------+
+|Module Name | RTL Object                         | Inference | Size (Depth x Width) | Primitives       | 
++------------+------------------------------------+-----------+----------------------+------------------+
+|top         | datapath_inst/RAM_A/ram_memory_reg | Implied   | 512 x 20             | RAM256X1S x 40   | 
+|top         | datapath_inst/RAM_B/ram_memory_reg | Implied   | 512 x 20             | RAM256X1S x 40   | 
++------------+------------------------------------+-----------+----------------------+------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    48|
+|3     |DSP48E1   |     2|
+|4     |LUT1      |     3|
+|5     |LUT2      |    54|
+|6     |LUT3      |    65|
+|7     |LUT4      |    34|
+|8     |LUT5      |    49|
+|9     |LUT6      |   153|
+|10    |MUXF7     |    14|
+|11    |MUXF8     |     2|
+|12    |RAM256X1S |    80|
+|13    |FDRE      |   136|
+|14    |IBUF      |    54|
+|15    |OBUF      |     3|
++------+----------+------+
+
+Report Instance Areas: 
++------+----------------------------+-----------+------+
+|      |Instance                    |Module     |Cells |
++------+----------------------------+-----------+------+
+|1     |top                         |           |   698|
+|2     |  controller_inst           |controller |    39|
+|3     |  datapath_inst             |datapath   |   601|
+|4     |    RAM_A                   |RAM        |    80|
+|5     |    RAM_B                   |RAM_0      |    80|
+|6     |    Rom_high                |ROM        |    53|
+|7     |    Rom_low                 |ROM_1      |    53|
+|8     |    cntr_i                  |countern   |    39|
+|9     |    cntr_j                  |countern_2 |    56|
+|10    |    reg_A                   |\reg       |    20|
+|11    |    reg_B                   |reg_3      |    20|
+|12    |    reg_Count_high          |reg_4      |    59|
+|13    |    reg_Previous_Arron_down |reg_5      |    19|
+|14    |    reg_Previous_Arron_up   |reg_6      |    12|
+|15    |    reg_count_low           |reg_7      |    59|
++------+----------------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 52 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 606.637 ; gain = 349.855
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 200 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 80 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 80 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 52 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 689.703 ; gain = 445.965
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_without_Optimization/Aroon/Aroon.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 689.703 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  6 23:05:46 2022...

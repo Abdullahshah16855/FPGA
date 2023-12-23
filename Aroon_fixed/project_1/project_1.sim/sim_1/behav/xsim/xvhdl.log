@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abbas_Setup/FYP_Material/New_PC_Progress/Improve_Latencies/Aroon_Optimization/Aroon_top/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
