@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  5 00:00:30 2022
+# Process ID: 5296
+# Current directory: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12020 C:\Abdullah Data\Technical indicators\RSI\RSI_Implementation\Vivado_Result\Vivado_Result.xpr
+# Log file: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/vivado.log
+# Journal file: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 798.645 ; gain = 84.250
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 214 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.374 . Memory (MB): peak = 1630.586 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.375 . Memory (MB): peak = 1630.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:53 ; elapsed = 00:00:43 . Memory (MB): peak = 1750.641 ; gain = 948.805
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+save_constraints -force
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim/Output_file.txt'
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim/RSI_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto a5bc134692be4728ae551c22f48b0ebc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1785.855 ; gain = 11.652
+open_wave_config {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/top_tb_behav1.wcfg}
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/adder1_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/gain_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/divide_gain was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/mux1_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/average_gain2 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/loss_module1/mux2_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/gain_module1/average_gain1 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/loss_module1/average_loss1 was not found in the design.
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 24 us
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 12264 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 12264 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 12322400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 12322400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 12380800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 12380800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 12439200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 12439200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 12497600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 12497600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/top_tb.vhd
+run 24 us

@@ -1,0 +1,15 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Abdullah Data/Final Implemented Design/Vivado/RAM.vhd,1657133875,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,ram,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/ROM.vhd,1659268243,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,rom,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/ROM_128.vhd,1664861236,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,rom_128,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/controller.vhd,1657133868,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd,,,controller,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/counter.vhd,1657133869,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,countern,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,1665053065,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd,,,datapath,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd,1661325341,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,divider,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd,1657133879,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd,,,reg,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd,1657133883,vhdl,C:/Abdullah Data/Final Implemented Design/Vivado/top_tb.vhd,,,top,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/Vivado/top_tb.vhd,1663491344,vhdl,,,,top_tb,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/Vivado/ROM_1.vhd,1657133881,vhdl,C:/Abdullah Data/Technical indicators/RSI/Vivado/datapath.vhd,,,rom_1,,,,,,,,

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3891500000fs"></ZoomStartTime>
+      <ZoomEndTime time="4081100001fs"></ZoomEndTime>
+      <Cursor1Time time="4022800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Go" type="logic">
+      <obj_property name="ElementShortName">Go</obj_property>
+      <obj_property name="ObjectShortName">Go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/We" type="logic">
+      <obj_property name="ElementShortName">We</obj_property>
+      <obj_property name="ObjectShortName">We</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Din" type="array">
+      <obj_property name="ElementShortName">Din[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/RdAddr" type="array">
+      <obj_property name="ElementShortName">RdAddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RdAddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/controller_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Done" type="logic">
+      <obj_property name="ElementShortName">Done</obj_property>
+      <obj_property name="ObjectShortName">Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/i_count" type="array">
+      <obj_property name="ElementShortName">i_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/Contrl_inst/Zmax" type="logic">
+      <obj_property name="ElementShortName">Zmax</obj_property>
+      <obj_property name="ObjectShortName">Zmax</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/Contrl_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/datapath/i" type="array">
+      <obj_property name="ElementShortName">i[17:0]</obj_property>
+      <obj_property name="ObjectShortName">i[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/difference" type="array">
+      <obj_property name="ElementShortName">difference[19:0]</obj_property>
+      <obj_property name="ObjectShortName">difference[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/ram_out" type="array">
+      <obj_property name="ElementShortName">ram_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_out[19:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/datapath/y" type="array">
+      <obj_property name="ElementShortName">y[11:0]</obj_property>
+      <obj_property name="ObjectShortName">y[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/reg1_out" type="array">
+      <obj_property name="ElementShortName">reg1_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/Gain" type="array">
+      <obj_property name="ElementShortName">Gain[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Gain[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/gain_out" type="array">
+      <obj_property name="ElementShortName">gain_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gain_out[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/mult" type="array">
+      <obj_property name="ElementShortName">mult[26:0]</obj_property>
+      <obj_property name="ObjectShortName">mult[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/reg11_temp" type="array">
+      <obj_property name="ElementShortName">reg11_temp[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg11_temp[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/datapath/i" type="array">
+      <obj_property name="ElementShortName">i[17:0]</obj_property>
+      <obj_property name="ObjectShortName">i[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/Contrl_inst/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/Contrl_inst/Zmax" type="logic">
+      <obj_property name="ElementShortName">Zmax</obj_property>
+      <obj_property name="ObjectShortName">Zmax</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/Divider_Rs/Contrl_inst/en_gt0" type="logic">
+      <obj_property name="ElementShortName">en_gt0</obj_property>
+      <obj_property name="ObjectShortName">en_gt0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/div_block1/reg11_temp" type="array">
+      <obj_property name="ElementShortName">reg11_temp[17:0]</obj_property>
+      <obj_property name="ObjectShortName">reg11_temp[17:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/en_reg2" type="logic">
+      <obj_property name="ElementShortName">en_reg2</obj_property>
+      <obj_property name="ObjectShortName">en_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/RSI_Dout" type="array">
+      <obj_property name="ElementShortName">RSI_Dout[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RSI_Dout[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/Rsi_prev" type="array">
+      <obj_property name="ElementShortName">Rsi_prev[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Rsi_prev[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/RS_reg_out" type="array">
+      <obj_property name="ElementShortName">RS_reg_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_reg_out[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/RSI" type="array">
+      <obj_property name="ElementShortName">RSI[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RSI[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider47">
+      <obj_property name="label">Gain module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group71" type="group">
+      <obj_property name="label">Gain module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/en_reg2" type="logic">
+         <obj_property name="ElementShortName">en_reg2</obj_property>
+         <obj_property name="ObjectShortName">en_reg2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/reg2_out" type="array">
+         <obj_property name="ElementShortName">reg2_out[19:0]</obj_property>
+         <obj_property name="ObjectShortName">reg2_out[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/adder1_out" type="array">
+         <obj_property name="ElementShortName">adder1_out[19:0]</obj_property>
+         <obj_property name="ObjectShortName">adder1_out[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/average_gain2" type="array">
+         <obj_property name="ElementShortName">average_gain2[19:0]</obj_property>
+         <obj_property name="ObjectShortName">average_gain2[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/average_gain1" type="array">
+         <obj_property name="ElementShortName">average_gain1[19:0]</obj_property>
+         <obj_property name="ObjectShortName">average_gain1[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider75">
+         <obj_property name="label">.</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/gain_diff" type="array">
+         <obj_property name="ElementShortName">gain_diff[19:0]</obj_property>
+         <obj_property name="ObjectShortName">gain_diff[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/en_reg4" type="logic">
+         <obj_property name="ElementShortName">en_reg4</obj_property>
+         <obj_property name="ObjectShortName">en_reg4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/gain_out" type="array">
+         <obj_property name="ElementShortName">gain_out[19:0]</obj_property>
+         <obj_property name="ObjectShortName">gain_out[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/csel2" type="logic">
+         <obj_property name="ElementShortName">csel2</obj_property>
+         <obj_property name="ObjectShortName">csel2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/mux1_out" type="array">
+         <obj_property name="ElementShortName">mux1_out[19:0]</obj_property>
+         <obj_property name="ObjectShortName">mux1_out[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/mult13_left" type="array">
+         <obj_property name="ElementShortName">mult13_left[39:0]</obj_property>
+         <obj_property name="ObjectShortName">mult13_left[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/en_reg3" type="logic">
+         <obj_property name="ElementShortName">en_reg3</obj_property>
+         <obj_property name="ObjectShortName">en_reg3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/reg3_out" type="array">
+         <obj_property name="ElementShortName">reg3_out[19:0]</obj_property>
+         <obj_property name="ObjectShortName">reg3_out[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/divide_gain" type="array">
+         <obj_property name="ElementShortName">divide_gain[19:0]</obj_property>
+         <obj_property name="ObjectShortName">divide_gain[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/uut/datapath_inst/gain_module1/average_gain2" type="array">
+         <obj_property name="ElementShortName">average_gain2[19:0]</obj_property>
+         <obj_property name="ObjectShortName">average_gain2[19:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

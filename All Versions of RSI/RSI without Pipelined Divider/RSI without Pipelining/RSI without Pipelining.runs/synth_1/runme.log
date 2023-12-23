@@ -1,0 +1,704 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9012 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 408.715 ; gain = 95.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/top.vhd:21]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/Top_Datapath.vhd:49]
+	Parameter N bound to: 20 - type: integer 
+	Parameter M bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/counter.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern' (1#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RAM.vhd:22]
+	Parameter addr_width bound to: 8 - type: integer 
+	Parameter data_width bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RAM' (2#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RAM.vhd:22]
+INFO: [Synth 8-638] synthesizing module '\reg ' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (3#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized0' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+	Parameter N bound to: 40 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized0' (3#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'ROM_L' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/ROM_L.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ROM_L' (4#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/ROM_L.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (5#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/ROM.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'div_block' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_block.vhd:26]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'div_top' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_top.vhd:18]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'div_cntrl' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_cntrl.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'div_cntrl' (6#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_cntrl.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/divider.vhd:31]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern__parameterized0' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/counter.vhd:18]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern__parameterized0' (6#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'shift_reg_right_shift' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/shift_reg.vhd:16]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_reg_right_shift' (7#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/shift_reg.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized1' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized1' (7#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'shift_reg_left_shift' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/shift_reg.vhd:34]
+	Parameter N bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_reg_left_shift' (8#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/shift_reg.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'divider' (9#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/divider.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'div_top' (10#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_top.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized2' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized2' (10#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'div_block' (11#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/div_block.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'RSI_ROM' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RSI_ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'RSI_ROM' (12#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RSI_ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (13#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/Top_Datapath.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/controller.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'controller' (14#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/controller.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'top' (15#1) [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/top.vhd:21]
+WARNING: [Synth 8-3331] design controller has unconnected port sel
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[20]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[20]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[14]
+WARNING: [Synth 8-3331] design datapath has unconnected port en_reg8
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 541.969 ; gain = 229.051
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 541.969 ; gain = 229.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 541.969 ; gain = 229.051
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RSI without Pipelining/RSI without Pipelining.srcs/constrs_1/new/clk.xdc]
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RSI without Pipelining/RSI without Pipelining.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 877.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 877.777 ; gain = 564.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 877.777 ; gain = 564.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 877.777 ; gain = 564.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'div_cntrl'
+INFO: [Synth 8-5544] ROM "init" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Li" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Ei" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'controller'
+INFO: [Synth 8-5544] ROM "Li" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_reg3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Done" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_load |                              001 |                               00
+                s_divide |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'div_cntrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               s_waiting |                            00001 |                              000
+              s_loading1 |                            10000 |                              001
+              s_loading2 |                            01000 |                              010
+              s_counting |                            00100 |                              011
+                  s_done |                            00010 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:22 ; elapsed = 00:02:27 . Memory (MB): peak = 877.777 ; gain = 564.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 2     
+	   3 Input     20 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 2     
+	               20 Bit    Registers := 10    
+	               17 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---RAMs : 
+	               5K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module countern 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module RAM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               5K Bit         RAMs := 1     
+Module reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+Module reg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 1     
+Module div_cntrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module countern__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module shift_reg_right_shift 
+Detailed RTL Component Info : 
++---Registers : 
+	               17 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module reg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               17 Bit    Registers := 1     
+Module shift_reg_left_shift 
+Detailed RTL Component Info : 
++---Registers : 
+	               17 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module reg__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     40 Bit       Adders := 2     
+	   3 Input     20 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'datapath_inst/Div_module/reg10_GainOut/output_reg[19:0]' into 'datapath_inst/reg_3/output_reg[19:0]' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'datapath_inst/Div_module/reg11_LossOut/output_reg[19:0]' into 'datapath_inst/reg_6/output_reg[19:0]' [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element datapath_inst/Div_module/reg10_GainOut/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element datapath_inst/Div_module/reg11_LossOut/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element datapath_inst/Div_module/reg3/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/reg.vhd:26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[20]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM_L has unconnected port addr[20]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+RAM Pipeline Warning: Read Address Register Found For RAM datapath_inst/RAM_A/ram_memory_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_3/output_reg[12]' (FDRE) to 'datapath_inst/reg_6/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_3/output_reg[13]' (FDRE) to 'datapath_inst/reg_6/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_3/output_reg[11]' (FDRE) to 'datapath_inst/reg_6/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_6/output_reg[11]' (FDRE) to 'datapath_inst/reg_6/output_reg[12]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_6/output_reg[12]' (FDRE) to 'datapath_inst/reg_6/output_reg[13]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_6/output_reg[13]' (FDRE) to 'datapath_inst/reg_6/output_reg[14]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_6/output_reg[14]' (FDRE) to 'datapath_inst/reg_6/output_reg[15]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg_6/output_reg[15]' (FDRE) to 'datapath_inst/reg_6/output_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/reg_6/output_reg[16] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[7]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[8]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[9]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[10]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[11]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[11]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[12]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[12]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[13]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[13]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[14]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[14]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[15]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[15]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[16]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[16]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[17]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[17]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[18]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/reg9_Previous_rsi/output_reg[18]' (FDRE) to 'datapath_inst/reg9_Previous_rsi/output_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/reg9_Previous_rsi/output_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[16] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[16]' (FDE) to 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[15] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[15]' (FDE) to 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[14] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[14]' (FDE) to 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[13] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[13]' (FDE) to 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[12] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[12]' (FDE) to 'datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[11] )
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_gain/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_diff_loss/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_3/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_6/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_6/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_6/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg1/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg2/qt_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg2/qt_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg2/qt_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg2/qt_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/Div_module/Divider_Rs/divider1/shift_reg2/qt_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg9_Previous_rsi/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Gain/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_Loss/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/reg_6/output_reg[16]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:46 ; elapsed = 00:06:56 . Memory (MB): peak = 877.777 ; gain = 564.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------------------------------------+---------------+----------------+
+|Module Name | RTL Object                               | Depth x Width | Implemented As | 
++------------+------------------------------------------+---------------+----------------+
+|ROM_L       | memory[0]                                | 16384x11      | LUT            | 
+|ROM         | memory[0]                                | 16384x10      | LUT            | 
+|RSI_ROM     | memory[0]                                | 4096x7        | LUT            | 
+|ROM_L       | memory[0]                                | 16384x11      | LUT            | 
+|ROM         | memory[0]                                | 16384x10      | LUT            | 
+|ROM_L       | memory[0]                                | 16384x11      | LUT            | 
+|ROM         | memory[0]                                | 16384x10      | LUT            | 
+|top         | datapath_inst/Div_module/reg3/output_reg | 4096x7        | Block RAM      | 
++------------+------------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|RAM:        | ram_memory_reg | 256 x 20(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 1      | 0      | 
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance i_0/datapath_inst/RAM_A/ram_memory_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/datapath_inst/RAM_A/ram_memory_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance output0/datapath_inst/Div_module/reg3/output_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:08 ; elapsed = 00:07:24 . Memory (MB): peak = 886.660 ; gain = 573.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5584] The signal datapath_inst/RAM_A/ram_memory_reg is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal datapath_inst/RAM_A/ram_memory_reg is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:07:11 ; elapsed = 00:07:27 . Memory (MB): peak = 911.914 ; gain = 598.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance datapath_inst/Div_module/reg3/output_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:07:12 ; elapsed = 00:07:29 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:07:15 ; elapsed = 00:07:31 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:15 ; elapsed = 00:07:31 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    49|
+|3     |LUT1     |    10|
+|4     |LUT2     |   143|
+|5     |LUT3     |   105|
+|6     |LUT4     |    29|
+|7     |LUT5     |    87|
+|8     |LUT6     |   575|
+|9     |MUXF7    |    64|
+|10    |MUXF8    |    14|
+|11    |RAM64M   |    24|
+|12    |RAM64X1D |     8|
+|13    |RAMB36E1 |     1|
+|14    |FDRE     |   213|
+|15    |FDSE     |     1|
+|16    |IBUF     |    32|
+|17    |OBUF     |     3|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------------------+------+
+|      |Instance              |Module                   |Cells |
++------+----------------------+-------------------------+------+
+|1     |top                   |                         |  1359|
+|2     |  controller_inst     |controller               |    22|
+|3     |  datapath_inst       |datapath                 |  1301|
+|4     |    Div_module        |div_block                |   182|
+|5     |      Divider_Rs      |div_top                  |   177|
+|6     |        div_cntrl1    |div_cntrl                |    28|
+|7     |        divider1      |divider                  |   149|
+|8     |          couter_i    |countern__parameterized0 |    44|
+|9     |          reg1        |reg__parameterized1      |    42|
+|10    |          shift_reg1  |shift_reg_right_shift    |    36|
+|11    |          shift_reg2  |shift_reg_left_shift     |    24|
+|12    |      reg3            |reg__parameterized2      |     5|
+|13    |    RAM_A             |RAM                      |    80|
+|14    |    ROM_Average_Loss  |ROM                      |   117|
+|15    |    ROM_Average_gain  |ROM_0                    |   117|
+|16    |    ROM_Loss          |ROM_L                    |   194|
+|17    |    ROM_gain          |ROM_L_1                  |   194|
+|18    |    couter_i          |countern                 |    99|
+|19    |    reg9_Previous_rsi |\reg                     |    18|
+|20    |    reg_1             |reg_2                    |    20|
+|21    |    reg_2             |reg__parameterized0      |    24|
+|22    |    reg_3             |reg_3                    |    35|
+|23    |    reg_5             |reg__parameterized0_4    |    24|
+|24    |    reg_6             |reg_5                    |    58|
+|25    |    reg_Gain          |reg_6                    |    37|
+|26    |    reg_Loss          |reg_7                    |    14|
+|27    |    reg_diff_gain     |reg_8                    |    32|
+|28    |    reg_diff_loss     |reg_9                    |    32|
++------+----------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 96 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:06:42 ; elapsed = 00:07:15 . Memory (MB): peak = 913.551 ; gain = 264.824
+Synthesis Optimization Complete : Time (s): cpu = 00:07:15 ; elapsed = 00:07:32 . Memory (MB): peak = 913.551 ; gain = 600.633
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 192 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 24 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+103 Infos, 144 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:07:19 ; elapsed = 00:07:37 . Memory (MB): peak = 913.551 ; gain = 613.473
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Abdullah Data/Final Implemented Design/RSI without Pipelined Divider/RSI without Pipelining/RSI without Pipelining.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 913.551 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  6 16:48:44 2022...

@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Oct  8 15:55:19 2022
+# Process ID: 6640
+# Current directory: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7732 C:\Abdullah Data\Final Implemented Design\RSI\Rsi_complete\Rsi_complete.xpr
+# Log file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/vivado.log
+# Journal file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:12 . Memory (MB): peak = 800.047 ; gain = 91.207
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Sat Oct  8 15:56:20 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1/runme.log
+[Sat Oct  8 15:56:20 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 228 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.337 . Memory (MB): peak = 1658.293 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.338 . Memory (MB): peak = 1658.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:49 ; elapsed = 00:00:43 . Memory (MB): peak = 1771.512 ; gain = 944.379
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_property top div_top [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 2
+[Sat Oct  8 16:10:39 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1/runme.log
+[Sat Oct  8 16:10:39 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 135 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1838.836 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.185 . Memory (MB): peak = 1838.836 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1838.836 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+save_constraints -force
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct  8 16:18:25 2022...

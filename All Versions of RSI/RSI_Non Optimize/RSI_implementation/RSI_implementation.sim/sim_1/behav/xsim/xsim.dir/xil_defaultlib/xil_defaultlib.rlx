@@ -1,0 +1,14 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/RAM.vhd,1657133875,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,ram,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/ROM.vhd,1657133880,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,rom,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/ROM_1.vhd,1657133881,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,rom_1,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/controller.vhd,1657133868,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/top.vhd,,,controller,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/counter.vhd,1657133869,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,countern,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,1665243607,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/top.vhd,,,datapath,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/divider.vhd,1657133873,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,divider,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/reg.vhd,1657133879,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/datapath.vhd,,,reg,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/top.vhd,1657133883,vhdl,C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/top_tb.vhd,,,top,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI_Non Optimize/top_tb.vhd,1665242015,vhdl,,,,top_tb,,,,,,,,

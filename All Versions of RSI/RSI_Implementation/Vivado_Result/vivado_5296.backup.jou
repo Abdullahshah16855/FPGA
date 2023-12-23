@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  5 00:00:30 2022
+# Process ID: 5296
+# Current directory: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12020 C:\Abdullah Data\Technical indicators\RSI\RSI_Implementation\Vivado_Result\Vivado_Result.xpr
+# Log file: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/vivado.log
+# Journal file: C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Technical indicators/RSI/RSI_Implementation/Vivado_Result/Vivado_Result.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+save_constraints -force
+launch_simulation
+source top_tb.tcl
+open_wave_config {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/top_tb_behav1.wcfg}
+restart
+run 24 us
+run 24 us

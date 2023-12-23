@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/RSI_Implementation/Divider_RSI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity divider
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/RSI_Implementation/div_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity div_block
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/RSI_Implementation/Top_Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/RSI_Implementation/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/RSI_Implementation/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

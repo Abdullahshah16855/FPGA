@@ -1,0 +1,273 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Tue Dec  6 17:17:10 2022
+| Host             : DESKTOP-89C8E5B running 64-bit major release  (build 9200)
+| Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+| Design           : top
+| Device           : xc7z020clg484-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.150        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.045        |
+| Device Static (W)        | 0.105        |
+| Effective TJA (C/W)      | 11.5         |
+| Max Ambient (C)          | 83.3         |
+| Junction Temperature (C) | 26.7         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.007 |        3 |       --- |             --- |
+| Slice Logic              |     0.019 |     2211 |       --- |             --- |
+|   LUT as Logic           |     0.016 |     1115 |     53200 |            2.10 |
+|   CARRY4                 |     0.001 |      132 |     13300 |            0.99 |
+|   Register               |    <0.001 |      553 |    106400 |            0.52 |
+|   LUT as Distributed RAM |    <0.001 |      112 |     17400 |            0.64 |
+|   F7/F8 Muxes            |    <0.001 |       63 |     53200 |            0.12 |
+|   Others                 |     0.000 |       88 |       --- |             --- |
+| Signals                  |     0.019 |     1427 |       --- |             --- |
+| I/O                      |    <0.001 |       35 |       200 |           17.50 |
+| Static Power             |     0.105 |          |           |                 |
+| Total                    |     0.150 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.053 |       0.045 |      0.008 |
+| Vccaux    |       1.800 |     0.010 |       0.000 |      0.010 |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccpint   |       1.000 |     0.017 |       0.000 |      0.017 |
+| Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |
+| Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |
+| Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco_mio1 |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+| clk   | clk    |             5.6 |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------------------+-----------+
+| Name                               | Power (W) |
++------------------------------------+-----------+
+| top                                |     0.045 |
+|   controller_inst                  |    <0.001 |
+|   datapath_inst                    |     0.044 |
+|     RAM_A                          |     0.003 |
+|       ram_memory_reg_0_63_0_2      |    <0.001 |
+|       ram_memory_reg_0_63_12_14    |    <0.001 |
+|       ram_memory_reg_0_63_15_17    |    <0.001 |
+|       ram_memory_reg_0_63_18_18    |    <0.001 |
+|       ram_memory_reg_0_63_19_19    |    <0.001 |
+|       ram_memory_reg_0_63_3_5      |    <0.001 |
+|       ram_memory_reg_0_63_6_8      |    <0.001 |
+|       ram_memory_reg_0_63_9_11     |    <0.001 |
+|       ram_memory_reg_128_191_0_2   |    <0.001 |
+|       ram_memory_reg_128_191_12_14 |    <0.001 |
+|       ram_memory_reg_128_191_15_17 |    <0.001 |
+|       ram_memory_reg_128_191_18_18 |    <0.001 |
+|       ram_memory_reg_128_191_19_19 |    <0.001 |
+|       ram_memory_reg_128_191_3_5   |    <0.001 |
+|       ram_memory_reg_128_191_6_8   |    <0.001 |
+|       ram_memory_reg_128_191_9_11  |    <0.001 |
+|       ram_memory_reg_192_255_0_2   |    <0.001 |
+|       ram_memory_reg_192_255_12_14 |    <0.001 |
+|       ram_memory_reg_192_255_15_17 |    <0.001 |
+|       ram_memory_reg_192_255_18_18 |    <0.001 |
+|       ram_memory_reg_192_255_19_19 |    <0.001 |
+|       ram_memory_reg_192_255_3_5   |    <0.001 |
+|       ram_memory_reg_192_255_6_8   |    <0.001 |
+|       ram_memory_reg_192_255_9_11  |    <0.001 |
+|       ram_memory_reg_64_127_0_2    |    <0.001 |
+|       ram_memory_reg_64_127_12_14  |    <0.001 |
+|       ram_memory_reg_64_127_15_17  |    <0.001 |
+|       ram_memory_reg_64_127_18_18  |    <0.001 |
+|       ram_memory_reg_64_127_19_19  |    <0.001 |
+|       ram_memory_reg_64_127_3_5    |    <0.001 |
+|       ram_memory_reg_64_127_6_8    |    <0.001 |
+|       ram_memory_reg_64_127_9_11   |    <0.001 |
+|     ROM_RSI2                       |     0.001 |
+|     couter_i                       |    <0.001 |
+|     div_block1                     |     0.017 |
+|       Divider_Rs                   |     0.015 |
+|         Contrl_inst                |    <0.001 |
+|         datapath                   |     0.015 |
+|           couter_i                 |    <0.001 |
+|           ff0                      |    <0.001 |
+|           ff1                      |    <0.001 |
+|           ff10                     |    <0.001 |
+|           ff2                      |    <0.001 |
+|           ff3                      |    <0.001 |
+|           ff4                      |    <0.001 |
+|           ff5                      |    <0.001 |
+|           ff6                      |    <0.001 |
+|           ff7                      |    <0.001 |
+|           ff8                      |    <0.001 |
+|           ff9                      |    <0.001 |
+|           reg1010                  |    <0.001 |
+|           reg11                    |    <0.001 |
+|           reg1111                  |    <0.001 |
+|           reg22                    |    <0.001 |
+|           reg33                    |    <0.001 |
+|           reg44                    |    <0.001 |
+|           reg55                    |    <0.001 |
+|           reg66                    |    <0.001 |
+|           reg77                    |    <0.001 |
+|           reg88                    |    <0.001 |
+|           reg99                    |    <0.001 |
+|           shift_reg0               |    <0.001 |
+|           shift_reg1               |    <0.001 |
+|           shift_reg10              |    <0.001 |
+|           shift_reg11              |    <0.001 |
+|           shift_reg2               |    <0.001 |
+|           shift_reg3               |    <0.001 |
+|           shift_reg4               |    <0.001 |
+|           shift_reg5               |    <0.001 |
+|           shift_reg6               |    <0.001 |
+|           shift_reg7               |    <0.001 |
+|           shift_reg8               |    <0.001 |
+|           shift_reg9               |    <0.001 |
+|           update_mod0              |    <0.001 |
+|             reg_1                  |    <0.001 |
+|           update_mod1              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod10             |    <0.001 |
+|             reg_1                  |    <0.001 |
+|           update_mod11             |    <0.001 |
+|           update_mod2              |     0.001 |
+|             reg_1                  |    <0.001 |
+|           update_mod3              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod4              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod5              |     0.001 |
+|             reg_1                  |    <0.001 |
+|           update_mod6              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod7              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod8              |     0.001 |
+|             reg_1                  |     0.001 |
+|           update_mod9              |     0.001 |
+|             reg_1                  |     0.001 |
+|       reg10_GainOut                |    <0.001 |
+|       reg11_LossOut                |    <0.001 |
+|       reg3                         |    <0.001 |
+|     gain_module1                   |     0.010 |
+|       ROM_inst1                    |    <0.001 |
+|       ROM_inst2                    |     0.004 |
+|       reg2_inst                    |    <0.001 |
+|       reg3_inst                    |     0.002 |
+|       reg4_inst                    |    <0.001 |
+|     loss_module1                   |     0.011 |
+|       ROM_inst1                    |    <0.001 |
+|       ROM_inst2                    |     0.005 |
+|       reg5_inst                    |    <0.001 |
+|       reg6_inst                    |     0.002 |
+|       reg7_inst                    |    <0.001 |
+|     reg9_Previous_rsi              |    <0.001 |
+|     reg_1                          |    <0.001 |
+|     reg_diff_gain                  |    <0.001 |
+|     reg_diff_loss                  |    <0.001 |
++------------------------------------+-----------+
+
+

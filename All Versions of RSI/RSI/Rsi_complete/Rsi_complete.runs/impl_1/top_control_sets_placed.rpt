@@ -1,0 +1,90 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Dec  6 17:15:33 2022
+| Host         : DESKTOP-89C8E5B running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |    46 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      8 |            1 |
+|     10 |            1 |
+|     12 |            1 |
+|     14 |            2 |
+|    16+ |           17 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              28 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             578 |           86 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             500 |          105 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                         Enable Signal                        |                    Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++----------------+--------------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff7/en_gt8      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                3 |              8 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff6/en_gt7      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                3 |             10 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff5/en_gt6      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                3 |             12 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/output_reg[6][0]                      | rst_IBUF                                               |                2 |             14 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff4/en_gt5      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                3 |             14 |
+|  clk_IBUF_BUFG | controller_inst/E[0]                                         | rst_IBUF                                               |                4 |             16 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff3/en_gt4      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                4 |             16 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff2/en_gt3      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                5 |             18 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff1/en_gt2      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                6 |             20 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/datapath/ff0/en_gt1      | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                5 |             22 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/Contrl_inst/qt_reg[0]    | datapath_inst/div_block1/Divider_Rs/Contrl_inst/out[0] |                6 |             24 |
+|  clk_IBUF_BUFG |                                                              |                                                        |                7 |             28 |
+|  clk_IBUF_BUFG | datapath_inst/div_block1/Divider_Rs/Contrl_inst/temp_reg[17] | rst_IBUF                                               |                5 |             36 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/output_reg[18]                        |                                                        |                7 |             56 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/output_reg[18]_2                      |                                                        |                7 |             56 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/en_reg5                               | rst_IBUF                                               |                8 |             56 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/output_reg[18]_0                      |                                                        |                7 |             56 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/output_reg[18]_1                      |                                                        |                7 |             56 |
+|  clk_IBUF_BUFG | datapath_inst/couter_i/E[0]                                  | rst_IBUF                                               |               12 |             56 |
+|  clk_IBUF_BUFG | controller_inst/out[1]                                       | rst_IBUF                                               |               19 |             82 |
+|  clk_IBUF_BUFG | controller_inst/output_reg[0][0]                             | rst_IBUF                                               |               17 |             96 |
+|  clk_IBUF_BUFG |                                                              | rst_IBUF                                               |               86 |            578 |
++----------------+--------------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+
+

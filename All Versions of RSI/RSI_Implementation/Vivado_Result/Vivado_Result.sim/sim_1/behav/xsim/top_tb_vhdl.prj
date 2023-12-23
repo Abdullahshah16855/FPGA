@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Divider_RSI.vhd" \
+"../../../../../RAM.vhd" \
+"../../../../../ROM.vhd" \
+"../../../../../ROM_L.vhd" \
+"../../../../../RSI_ROM.vhd" \
+"../../../../../counter.vhd" \
+"../../../../../reg.vhd" \
+"../../../../../div_block.vhd" \
+"../../../../../Top_Datapath.vhd" \
+"../../../../../controller.vhd" \
+"../../../../../top.vhd" \
+"../../../../../top_tb.vhd" \
+
+# Do not sort compile order
+nosort

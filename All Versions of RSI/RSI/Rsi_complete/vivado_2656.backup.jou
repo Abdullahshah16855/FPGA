@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Oct  9 17:09:47 2022
+# Process ID: 2656
+# Current directory: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9372 C:\Abdullah Data\Final Implemented Design\RSI\Rsi_complete\Rsi_complete.xpr
+# Log file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/vivado.log
+# Journal file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source top_tb.tcl
+open_wave_config {C:/Abdullah Data/Final Implemented Design/RSI/top_tb_behav1.wcfg}
+restart
+run 24 us
+run 24 us
+restart
+run 24 us
+run 24 us
+restart
+run 24 us
+run 24 us
+save_wave_config {C:/Abdullah Data/Final Implemented Design/RSI/top_tb_behav1.wcfg}
+close_sim

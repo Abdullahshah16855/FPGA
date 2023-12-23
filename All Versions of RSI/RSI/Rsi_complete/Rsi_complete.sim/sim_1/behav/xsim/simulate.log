@@ -1,0 +1,302 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1869 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1877900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1886800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1895700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1904600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1913500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1922400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1931300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1940200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1949100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1958 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1966900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1975800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1984700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 1993600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2002500 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2011400 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2020300 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2029200 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2038100 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2047 ns  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2055900 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2064800 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2073700 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Error: File RSI_Stock_data.txt is already at the end of file, nothing to read
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd
+Warning: TEXTIO function READ: line is empty
+Time: 2082600 ps  Iteration: 0  Process: /top_tb/stimulus  File: C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd

@@ -1,0 +1,24 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Abdullah Data/Final Implemented Design/RSI/RAM.vhd,1661932672,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,ram,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/ROM.vhd,1663671766,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/gain_module.vhd;C:/Abdullah Data/Final Implemented Design/RSI/loss_module.vhd,,,rom,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/RSI_ROM.vhd,1662223941,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,rsi_rom,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/RSI_ROM2.vhd,1664819365,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,rsi_rom2,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,1664821570,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/top.vhd,,,datapath,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/controller.vhd,1663745312,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/top.vhd,,,controller,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/counter.vhd,1657133869,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd;C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd,,,countern,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/div_block.vhd,1663659169,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,div_block,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/div_ctrl.vhd,1663655567,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_top.vhd,,,div_ctrl,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd,1663661307,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_top.vhd,,,div_dp,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/div_top.vhd,1663659117,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_block.vhd,,,div_top,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/flip_flop.vhd,1663150100,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd,,,flip_flop,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/gain_module.vhd,1663748612,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,gain_module,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/loss_module.vhd,1663748754,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd,,,loss_module,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/module.vhd,1663230166,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd,,,module,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd,1657133879,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd;C:/Abdullah Data/Final Implemented Design/RSI/div_block.vhd;C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd;C:/Abdullah Data/Final Implemented Design/RSI/gain_module.vhd;C:/Abdullah Data/Final Implemented Design/RSI/loss_module.vhd;C:/Abdullah Data/Final Implemented Design/RSI/module.vhd,,,reg,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/shift_reg.vhd,1663243707,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd,,,shift_reg,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/top.vhd,1663745336,vhdl,C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd,,,top,,,,,,,,
+C:/Abdullah Data/Final Implemented Design/RSI/top_tb.vhd,1663492389,vhdl,,,,top_tb,,,,,,,,
+C:/Abdullah Data/Optimizize Technical indicators/RSI/ROM_L.vhd,1661968741,vhdl,C:/Abdullah Data/Optimizize Technical indicators/RSI/Top_Datapath.vhd,,,rom_l,,,,,,,,

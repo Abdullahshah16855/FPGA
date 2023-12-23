@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13106600000fs"></ZoomStartTime>
+      <ZoomEndTime time="14078600001fs"></ZoomEndTime>
+      <Cursor1Time time="13373600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Go" type="logic">
+      <obj_property name="ElementShortName">Go</obj_property>
+      <obj_property name="ObjectShortName">Go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/We" type="logic">
+      <obj_property name="ElementShortName">We</obj_property>
+      <obj_property name="ObjectShortName">We</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Din" type="array">
+      <obj_property name="ElementShortName">Din[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Dout" type="array">
+      <obj_property name="ElementShortName">Dout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Dout[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/RdAddr" type="array">
+      <obj_property name="ElementShortName">RdAddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RdAddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Done" type="logic">
+      <obj_property name="ElementShortName">Done</obj_property>
+      <obj_property name="ObjectShortName">Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/RS_1" type="array">
+      <obj_property name="ElementShortName">RS_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RS_1[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/mux2_out" type="array">
+      <obj_property name="ElementShortName">mux2_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">mux2_out[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/datapath_inst/RS" type="array">
+      <obj_property name="ElementShortName">RS[11:0]</obj_property>
+      <obj_property name="ObjectShortName">RS[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1073 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  5 22:04:34 2022
+# Process ID: 11176
+# Current directory: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12480 C:\Abdullah Data\Final Implemented Design\Vivado\RSI_implementation\RSI_implementation.xpr
+# Log file: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/vivado.log
+# Journal file: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 786.133 ; gain = 82.867
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.668 . Memory (MB): peak = 1620.898 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.669 . Memory (MB): peak = 1620.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:52 ; elapsed = 00:00:43 . Memory (MB): peak = 1746.875 ; gain = 956.246
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 12:34:59 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 12:34:59 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 2478.152 ; gain = 0.461
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 322 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.896 . Memory (MB): peak = 2478.152 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.897 . Memory (MB): peak = 2478.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2478.152 ; gain = 0.000
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk]
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 12:47:30 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 12:47:30 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.642 . Memory (MB): peak = 2478.152 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.642 . Memory (MB): peak = 2478.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2478.152 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:01:49 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:01:49 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:03:21 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:03:21 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.665 . Memory (MB): peak = 2478.152 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.666 . Memory (MB): peak = 2478.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2478.152 ; gain = 0.000
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:15:40 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.530 . Memory (MB): peak = 2493.980 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.531 . Memory (MB): peak = 2493.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2493.980 ; gain = 5.746
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:29:46 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:29:46 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:31:14 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:31:14 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 315 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.627 . Memory (MB): peak = 2518.699 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.628 . Memory (MB): peak = 2518.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2518.699 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:40:56 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:40:56 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.846 . Memory (MB): peak = 2518.699 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.846 . Memory (MB): peak = 2518.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2518.699 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:51:33 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 2522.715 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 2522.715 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2522.715 ; gain = 1.172
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 13:57:32 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 13:57:32 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 315 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.655 . Memory (MB): peak = 2526.422 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.655 . Memory (MB): peak = 2526.422 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2526.422 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 14:09:01 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 14:09:01 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.606 . Memory (MB): peak = 2539.055 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.606 . Memory (MB): peak = 2539.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2539.059 ; gain = 12.637
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 14:20:50 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.586 . Memory (MB): peak = 2551.281 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.586 . Memory (MB): peak = 2551.281 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2551.281 ; gain = 1.867
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 14:25:24 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 14:25:24 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 315 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.993 . Memory (MB): peak = 2557.992 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.993 . Memory (MB): peak = 2557.992 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2557.992 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 14:58:23 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 14:58:48 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 14:58:48 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.614 . Memory (MB): peak = 2565.879 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.615 . Memory (MB): peak = 2565.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2565.879 ; gain = 7.887
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 15:09:56 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 15:09:56 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 315 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.582 . Memory (MB): peak = 2576.367 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.583 . Memory (MB): peak = 2576.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2576.367 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu Oct  6 15:38:30 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Thu Oct  6 15:39:43 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+reset_run synth_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim/Output_file.txt'
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim/RSI_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/ROM_128.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ROM_128
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity countern
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity divider
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 26dc087036584eb5ad8c93ef8bfc9035 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [\countern(n=8)\]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=8,data_width=20)...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=20)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=40)\]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.divider [divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_128 [rom_128_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Abdullah -notrace
+couldn't read file "C:/Abdullah": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct  6 15:40:50 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2589.074 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.074 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 2589.074 ; gain = 0.000
+open_wave_config {C:/Abdullah Data/Technical indicators/RSI/Module/Seperate_Modules/RSI_modify/top_tb_behav1.wcfg}
+WARNING: Simulation object /top_tb/uut/datapath_inst/csel1 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/en_reg1 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/reg1_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/difference was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/Gain_diff was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/reg2_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/en_reg2 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/csel2 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/en_reg4 was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/reg3_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/Div_module/reg11_out was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/Div_module/mult was not found in the design.
+WARNING: Simulation object /top_tb/uut/datapath_inst/RS_reg_out was not found in the design.
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 24 us
+launch_runs synth_1 -jobs 2
+[Thu Oct  6 15:44:30 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+reset_run synth_1
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim/Output_file.txt'
+INFO: [SIM-utils-43] Exported 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim/RSI_Stock_data.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Abdullah Data/Final Implemented Design/Vivado/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 26dc087036584eb5ad8c93ef8bfc9035 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture up of entity xil_defaultlib.countern [\countern(n=8)\]
+Compiling architecture arch of entity xil_defaultlib.RAM [\RAM(addr_width=8,data_width=20)...]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=20)\]
+Compiling architecture arch of entity xil_defaultlib.reg [\reg(n=40)\]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.divider [divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_128 [rom_128_default]
+Compiling architecture arch of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture arch of entity xil_defaultlib.controller [controller_default]
+Compiling architecture arch of entity xil_defaultlib.top [top_default]
+Compiling architecture bench of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 2589.074 ; gain = 0.000
+run 24 us
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 15:45:43 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 15:45:43 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 343 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.669 . Memory (MB): peak = 2611.891 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.670 . Memory (MB): peak = 2611.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2611.891 ; gain = 22.816
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 16:04:07 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 16:04:07 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.617 . Memory (MB): peak = 2627.695 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.617 . Memory (MB): peak = 2627.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 20 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2627.695 ; gain = 1.785
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 16:18:51 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 16:18:51 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 328 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.722 . Memory (MB): peak = 2638.730 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.724 . Memory (MB): peak = 2638.730 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 2638.730 ; gain = 7.996
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+set_property top divider [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 2
+[Thu Oct  6 18:05:24 2022] Launched synth_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/synth_1/runme.log
+[Thu Oct  6 18:05:24 2022] Launched impl_1...
+Run output will be captured here: C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.runs/impl_1/runme.log
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: divider
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2638.730 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'divider' (1#1) [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[18]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[17]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[16]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[15]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[14]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[19]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[18]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[17]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[16]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[15]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2638.730 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2638.730 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2638.730 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2683.164 ; gain = 44.434
+5 Infos, 13 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 2683.164 ; gain = 44.434
+set_property top top [current_fileset]
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2683.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-439] module 'top' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2683.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+refresh_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2683.164 ; gain = 0.000
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2683.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd:21]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd:32]
+	Parameter N bound to: 20 - type: integer 
+	Parameter M bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern' [C:/Abdullah Data/Final Implemented Design/Vivado/counter.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern' (1#1) [C:/Abdullah Data/Final Implemented Design/Vivado/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Abdullah Data/Final Implemented Design/Vivado/RAM.vhd:22]
+	Parameter addr_width bound to: 8 - type: integer 
+	Parameter data_width bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RAM' (2#1) [C:/Abdullah Data/Final Implemented Design/Vivado/RAM.vhd:22]
+INFO: [Synth 8-638] synthesizing module '\reg ' [C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd:18]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (3#1) [C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized0' [C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd:18]
+	Parameter N bound to: 40 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized0' (3#1) [C:/Abdullah Data/Final Implemented Design/Vivado/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Abdullah Data/Final Implemented Design/Vivado/ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (4#1) [C:/Abdullah Data/Final Implemented Design/Vivado/ROM.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'divider' (5#1) [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'ROM_128' [C:/Abdullah Data/Final Implemented Design/Vivado/ROM_128.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ROM_128' (6#1) [C:/Abdullah Data/Final Implemented Design/Vivado/ROM_128.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (7#1) [C:/Abdullah Data/Final Implemented Design/Vivado/datapath.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Abdullah Data/Final Implemented Design/Vivado/controller.vhd:29]
+INFO: [Synth 8-226] default block is never used [C:/Abdullah Data/Final Implemented Design/Vivado/controller.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'controller' (8#1) [C:/Abdullah Data/Final Implemented Design/Vivado/controller.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [C:/Abdullah Data/Final Implemented Design/Vivado/top.vhd:21]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[18]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[17]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[16]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[15]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[14]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[19]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[18]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[17]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[16]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[15]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[14]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[39]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[38]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[37]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[36]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[35]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[34]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[33]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[32]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[21]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[20]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2704.699 ; gain = 21.535
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2704.699 ; gain = 21.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2704.699 ; gain = 21.535
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 2800.391 ; gain = 117.227
+set_property top divider [current_fileset]
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2800.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'divider' (1#1) [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[18]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[17]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[16]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[15]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[14]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[19]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[18]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[17]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[16]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[15]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2800.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2800.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2800.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2806.305 ; gain = 5.914
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2806.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'divider' (1#1) [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[18]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[17]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[16]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[15]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[14]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[19]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[18]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[17]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[16]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[15]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2806.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2806.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2806.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 2808.785 ; gain = 2.480
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2808.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'divider' [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'divider' (1#1) [C:/Abdullah Data/Final Implemented Design/Vivado/divider.vhd:19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[19]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[18]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[17]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[16]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[15]
+WARNING: [Synth 8-3331] design divider has unconnected port ina[14]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[19]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[18]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[17]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[16]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[15]
+WARNING: [Synth 8-3331] design divider has unconnected port inb[14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2808.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2808.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2808.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/Vivado/RSI_implementation/RSI_implementation.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 2808.883 ; gain = 0.098
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  7 01:29:07 2022...

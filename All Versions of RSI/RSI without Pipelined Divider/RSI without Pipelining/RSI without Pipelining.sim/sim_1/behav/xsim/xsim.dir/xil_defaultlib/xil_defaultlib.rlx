@@ -1,0 +1,19 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/RAM.vhd,1661932672,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,,,ram,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/ROM.vhd,1661938598,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,,,rom,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/ROM_L.vhd,1661968741,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,,,rom_l,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/RSI_ROM.vhd,1662223941,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,,,rsi_rom,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,1664258354,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/top.vhd,,,datapath,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/controller.vhd,1664257958,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/top.vhd,,,controller,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/counter.vhd,1657133869,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd;C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/divider.vhd,,,countern,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_block.vhd,1664261884,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd,,,div_block,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_cntrl.vhd,1664258826,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_top.vhd,,,div_cntrl,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_top.vhd,1664261170,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_block.vhd,,,div_top,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/divider.vhd,1664261692,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_top.vhd,,,divider,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/reg.vhd,1657133879,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/Top_Datapath.vhd;C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/div_block.vhd;C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/divider.vhd,,,reg,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/shift_reg.vhd,1662698533,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/divider.vhd,,,shift_reg,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/top.vhd,1664258494,vhdl,C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/top_tb.vhd,,,top,,,,,,,,
+C:/Abdullah Data/Technical indicators/RSI/RSI without Pipelined Divider/top_tb.vhd,1662561778,vhdl,,,,top_tb,,,,,,,,

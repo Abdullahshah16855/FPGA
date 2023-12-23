@@ -1,0 +1,931 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  6 17:07:39 2022
+# Process ID: 6828
+# Current directory: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1/top.vds
+# Journal file: C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16396 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 408.863 ; gain = 96.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Abdullah Data/Final Implemented Design/RSI/top.vhd:21]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd:50]
+	Parameter N bound to: 20 - type: integer 
+	Parameter M bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern' [C:/Abdullah Data/Final Implemented Design/RSI/counter.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern' (1#1) [C:/Abdullah Data/Final Implemented Design/RSI/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Abdullah Data/Final Implemented Design/RSI/RAM.vhd:22]
+	Parameter addr_width bound to: 8 - type: integer 
+	Parameter data_width bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RAM' (2#1) [C:/Abdullah Data/Final Implemented Design/RSI/RAM.vhd:22]
+INFO: [Synth 8-638] synthesizing module '\reg ' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module '\reg ' (3#1) [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'gain_module' [C:/Abdullah Data/Final Implemented Design/RSI/gain_module.vhd:21]
+	Parameter N bound to: 20 - type: integer 
+	Parameter M bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Abdullah Data/Final Implemented Design/RSI/ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (4#1) [C:/Abdullah Data/Final Implemented Design/RSI/ROM.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'gain_module' (5#1) [C:/Abdullah Data/Final Implemented Design/RSI/gain_module.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'loss_module' [C:/Abdullah Data/Final Implemented Design/RSI/loss_module.vhd:21]
+	Parameter N bound to: 20 - type: integer 
+	Parameter M bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'loss_module' (6#1) [C:/Abdullah Data/Final Implemented Design/RSI/loss_module.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'div_block' [C:/Abdullah Data/Final Implemented Design/RSI/div_block.vhd:27]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'div_top' [C:/Abdullah Data/Final Implemented Design/RSI/div_top.vhd:19]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'div_dp' [C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd:77]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'countern__parameterized0' [C:/Abdullah Data/Final Implemented Design/RSI/counter.vhd:18]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'countern__parameterized0' (6#1) [C:/Abdullah Data/Final Implemented Design/RSI/counter.vhd:18]
+INFO: [Synth 8-638] synthesizing module '\module ' [C:/Abdullah Data/Final Implemented Design/RSI/module.vhd:22]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized0' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized0' (6#1) [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+INFO: [Synth 8-256] done synthesizing module '\module ' (7#1) [C:/Abdullah Data/Final Implemented Design/RSI/module.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'flip_flop' [C:/Abdullah Data/Final Implemented Design/RSI/flip_flop.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'flip_flop' (8#1) [C:/Abdullah Data/Final Implemented Design/RSI/flip_flop.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'shift_reg_left_shift' [C:/Abdullah Data/Final Implemented Design/RSI/shift_reg.vhd:34]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_reg_left_shift' (9#1) [C:/Abdullah Data/Final Implemented Design/RSI/shift_reg.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'div_dp' (10#1) [C:/Abdullah Data/Final Implemented Design/RSI/div_dp.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'div_ctrl' [C:/Abdullah Data/Final Implemented Design/RSI/div_ctrl.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'div_ctrl' (11#1) [C:/Abdullah Data/Final Implemented Design/RSI/div_ctrl.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'div_top' (12#1) [C:/Abdullah Data/Final Implemented Design/RSI/div_top.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'reg__parameterized1' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+	Parameter N bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg__parameterized1' (12#1) [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'div_block' (13#1) [C:/Abdullah Data/Final Implemented Design/RSI/div_block.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'RSI_ROM2' [C:/Abdullah Data/Final Implemented Design/RSI/RSI_ROM2.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'RSI_ROM2' (14#1) [C:/Abdullah Data/Final Implemented Design/RSI/RSI_ROM2.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (15#1) [C:/Abdullah Data/Final Implemented Design/RSI/Top_Datapath.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'controller' [C:/Abdullah Data/Final Implemented Design/RSI/controller.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'controller' (16#1) [C:/Abdullah Data/Final Implemented Design/RSI/controller.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'top' (17#1) [C:/Abdullah Data/Final Implemented Design/RSI/top.vhd:21]
+WARNING: [Synth 8-3331] design controller has unconnected port sel
+WARNING: [Synth 8-3331] design controller has unconnected port zmax1
+WARNING: [Synth 8-3331] design div_ctrl has unconnected port zi11
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design datapath has unconnected port en_reg8
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 507.012 ; gain = 194.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 507.012 ; gain = 194.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 507.012 ; gain = 194.387
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.srcs/constrs_1/new/clk.xdc]
+Finished Parsing XDC File [C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.srcs/constrs_1/new/clk.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 861.574 ; gain = 0.586
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 861.574 ; gain = 548.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 861.574 ; gain = 548.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 861.574 ; gain = 548.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'div_ctrl'
+INFO: [Synth 8-5544] ROM "Li" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'controller'
+INFO: [Synth 8-5544] ROM "Done" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "en_reg10" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_load |                              001 |                               00
+                  s_calc |                              100 |                               01
+                  s_done |                              010 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'div_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               s_waiting |                            00001 |                              000
+              s_loading1 |                            10000 |                              001
+              s_loading2 |                            01000 |                              010
+              s_counting |                            00100 |                              011
+                  s_done |                            00010 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 861.574 ; gain = 548.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg12'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg13'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg14'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg15'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg16'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg17'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg18'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg19'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg110'
+INFO: [Synth 8-223] decloning instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11' (reg__parameterized0) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg111'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 5     
+	   3 Input     20 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 12    
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 12    
+	               18 Bit    Registers := 68    
+	               12 Bit    Registers := 13    
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---RAMs : 
+	               5K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 5     
+	   2 Input     18 Bit        Muxes := 12    
+	   2 Input     12 Bit        Muxes := 12    
+	   2 Input      8 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module countern 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module RAM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               5K Bit         RAMs := 1     
+Module reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+Module gain_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module loss_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module countern__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module reg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+Module module 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     18 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+Module flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module shift_reg_left_shift 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module div_ctrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+Module reg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     20 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+Module controller 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg23/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg24/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg34/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg25/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg35/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg45/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg26/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg36/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg46/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg56/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg27/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg37/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg47/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg57/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg67/output_reg[17:0]' into 'Divider_Rs/datapath/reg66/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg28/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg38/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg48/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg58/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg68/output_reg[17:0]' into 'Divider_Rs/datapath/reg66/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg78/output_reg[17:0]' into 'Divider_Rs/datapath/reg77/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg29/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg39/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg49/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg59/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg69/output_reg[17:0]' into 'Divider_Rs/datapath/reg66/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg79/output_reg[17:0]' into 'Divider_Rs/datapath/reg77/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg89/output_reg[17:0]' into 'Divider_Rs/datapath/reg88/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg210/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg310/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg410/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg510/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg610/output_reg[17:0]' into 'Divider_Rs/datapath/reg66/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg710/output_reg[17:0]' into 'Divider_Rs/datapath/reg77/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg810/output_reg[17:0]' into 'Divider_Rs/datapath/reg88/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg910/output_reg[17:0]' into 'Divider_Rs/datapath/reg99/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg211/output_reg[17:0]' into 'Divider_Rs/datapath/reg22/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg311/output_reg[17:0]' into 'Divider_Rs/datapath/reg33/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg411/output_reg[17:0]' into 'Divider_Rs/datapath/reg44/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg511/output_reg[17:0]' into 'Divider_Rs/datapath/reg55/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg611/output_reg[17:0]' into 'Divider_Rs/datapath/reg66/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg711/output_reg[17:0]' into 'Divider_Rs/datapath/reg77/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg811/output_reg[17:0]' into 'Divider_Rs/datapath/reg88/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg911/output_reg[17:0]' into 'Divider_Rs/datapath/reg99/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+INFO: [Synth 8-4471] merging register 'Divider_Rs/datapath/reg1011/output_reg[17:0]' into 'Divider_Rs/datapath/reg1010/output_reg[17:0]' [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg23/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg24/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg34/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg25/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg35/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg45/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg26/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg36/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg46/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg56/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg27/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg37/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg47/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg57/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg67/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg28/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg38/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg48/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg58/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg68/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg78/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg29/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg39/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg49/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg59/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg69/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg79/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg89/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg210/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg310/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg410/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg510/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg610/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg710/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg810/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg910/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg211/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg311/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg411/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg511/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg611/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg711/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg811/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg911/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/reg1011/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element Divider_Rs/datapath/update_mod11/reg_1/output_reg was removed.  [C:/Abdullah Data/Final Implemented Design/RSI/reg.vhd:26]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[19]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[18]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[17]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[16]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[15]
+WARNING: [Synth 8-3331] design ROM has unconnected port addr[14]
+WARNING: [Synth 8-3331] design datapath has unconnected port en_reg8
+RAM Pipeline Warning: Read Address Register Found For RAM datapath_inst/RAM_A/ram_memory_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3886] merging instance 'datapath_inst/gain_module1/reg3_inst/output_reg[0]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[0]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/gain_module1/reg3_inst/output_reg[1]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[1]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/loss_module1/reg6_inst/output_reg[0]' (FDRE) to 'datapath_inst/div_block1/reg11_LossOut/output_reg[0]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/loss_module1/reg6_inst/output_reg[1]' (FDRE) to 'datapath_inst/div_block1/reg11_LossOut/output_reg[1]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg11_LossOut/output_reg[10]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg11_LossOut/output_reg[11]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg11_LossOut/output_reg[12]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg11_LossOut/output_reg[13]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg10_GainOut/output_reg[13]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg10_GainOut/output_reg[12]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/reg10_GainOut/output_reg[11]' (FDRE) to 'datapath_inst/div_block1/reg10_GainOut/output_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/reg10_GainOut/output_reg[10] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[1]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[2]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[3]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[2]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[2]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[3]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg22/output_reg[10]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[3]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[3]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[3]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg33/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[4]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg44/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg55/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg66/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg77/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[3]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[4]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[5]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[6]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[7]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[8]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[9]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg88/output_reg[10]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[0]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[1]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[9]'
+INFO: [Synth 8-3886] merging instance 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[2]' (FDR) to 'datapath_inst/div_block1/Divider_Rs/datapath/reg99/output_reg[9]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/reg9_Previous_rsi/output_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/reg11/output_reg[10] )
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg4_inst/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/gain_module1/reg3_inst/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg7_inst/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/loss_module1/reg6_inst/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg10_GainOut/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/reg11_LossOut/output_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg10/qt_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg9/qt_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg8/qt_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg7/qt_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg6/qt_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg5/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg5/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg5/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg5/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg5/qt_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg4/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg4/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg4/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg4/qt_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg3/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg3/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg3/qt_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg2/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg2/qt_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/shift_reg1/qt_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/div_block1/Divider_Rs/datapath/reg1111/output_reg[5]) is unused and will be removed from module top.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod0/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod1/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod2/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod3/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod4/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod5/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod6/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod7/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod8/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod9/reg_1/output_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\datapath_inst/div_block1/Divider_Rs/datapath/update_mod10/reg_1/output_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:58 ; elapsed = 00:05:03 . Memory (MB): peak = 861.574 ; gain = 548.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|ROM         | memory[0]  | 16384x10      | LUT            | 
+|RSI_ROM2    | memory[0]  | 4096x7        | LUT            | 
+|ROM         | memory[0]  | 16384x10      | LUT            | 
+|ROM         | memory[0]  | 16384x10      | LUT            | 
+|ROM         | memory[0]  | 16384x10      | LUT            | 
+|ROM         | memory[0]  | 16384x10      | LUT            | 
+|RSI_ROM2    | memory[0]  | 4096x7        | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|RAM:        | ram_memory_reg | 256 x 20(WRITE_FIRST)  | W | R |                        |   |   | Port A           | 1      | 0      | 
++------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance i_0/datapath_inst/RAM_A/ram_memory_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/datapath_inst/RAM_A/ram_memory_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:14 ; elapsed = 00:05:21 . Memory (MB): peak = 880.938 ; gain = 568.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5584] The signal datapath_inst/RAM_A/ram_memory_reg is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal datapath_inst/RAM_A/ram_memory_reg is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:05:18 ; elapsed = 00:05:25 . Memory (MB): peak = 936.270 ; gain = 623.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:05:20 ; elapsed = 00:05:27 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:05:22 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:05:22 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:22 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:05:22 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:05:23 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:05:23 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   132|
+|3     |LUT1     |    30|
+|4     |LUT2     |   319|
+|5     |LUT3     |   206|
+|6     |LUT4     |   149|
+|7     |LUT5     |    90|
+|8     |LUT6     |   480|
+|9     |MUXF7    |    57|
+|10    |MUXF8    |     6|
+|11    |RAM64M   |    24|
+|12    |RAM64X1D |     8|
+|13    |FDRE     |   552|
+|14    |FDSE     |     2|
+|15    |IBUF     |    32|
+|16    |OBUF     |     3|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------------+-------------------------+------+
+|      |Instance               |Module                   |Cells |
++------+-----------------------+-------------------------+------+
+|1     |top                    |                         |  2091|
+|2     |  controller_inst      |controller               |    22|
+|3     |  datapath_inst        |datapath                 |  2033|
+|4     |    RAM_A              |RAM                      |    80|
+|5     |    ROM_RSI2           |RSI_ROM2                 |    97|
+|6     |    couter_i           |countern                 |    94|
+|7     |    div_block1         |div_block                |   936|
+|8     |      Divider_Rs       |div_top                  |   863|
+|9     |        Contrl_inst    |div_ctrl                 |     8|
+|10    |        datapath       |div_dp                   |   855|
+|11    |          couter_i     |countern__parameterized0 |    46|
+|12    |          ff0          |flip_flop                |     1|
+|13    |          ff1          |flip_flop_14             |     1|
+|14    |          ff10         |flip_flop_15             |     1|
+|15    |          ff2          |flip_flop_16             |     1|
+|16    |          ff3          |flip_flop_17             |     1|
+|17    |          ff4          |flip_flop_18             |     1|
+|18    |          ff5          |flip_flop_19             |     1|
+|19    |          ff6          |flip_flop_20             |     1|
+|20    |          ff7          |flip_flop_21             |     1|
+|21    |          ff8          |flip_flop_22             |     1|
+|22    |          ff9          |flip_flop_23             |     1|
+|23    |          reg1010      |reg__parameterized0      |    11|
+|24    |          reg11        |reg__parameterized0_24   |    10|
+|25    |          reg1111      |reg__parameterized0_25   |    10|
+|26    |          reg22        |reg__parameterized0_26   |    10|
+|27    |          reg33        |reg__parameterized0_27   |    10|
+|28    |          reg44        |reg__parameterized0_28   |    10|
+|29    |          reg55        |reg__parameterized0_29   |    10|
+|30    |          reg66        |reg__parameterized0_30   |    10|
+|31    |          reg77        |reg__parameterized0_31   |    10|
+|32    |          reg88        |reg__parameterized0_32   |    10|
+|33    |          reg99        |reg__parameterized0_33   |    10|
+|34    |          shift_reg0   |shift_reg_left_shift     |    12|
+|35    |          shift_reg1   |shift_reg_left_shift_34  |    11|
+|36    |          shift_reg10  |shift_reg_left_shift_35  |     4|
+|37    |          shift_reg11  |shift_reg_left_shift_36  |     1|
+|38    |          shift_reg2   |shift_reg_left_shift_37  |    10|
+|39    |          shift_reg3   |shift_reg_left_shift_38  |     9|
+|40    |          shift_reg4   |shift_reg_left_shift_39  |     8|
+|41    |          shift_reg5   |shift_reg_left_shift_40  |     7|
+|42    |          shift_reg6   |shift_reg_left_shift_41  |     6|
+|43    |          shift_reg7   |shift_reg_left_shift_42  |     5|
+|44    |          shift_reg8   |shift_reg_left_shift_43  |     4|
+|45    |          shift_reg9   |shift_reg_left_shift_44  |     6|
+|46    |          update_mod0  |\module                  |    53|
+|47    |            reg_1      |reg__parameterized0_66   |    47|
+|48    |          update_mod1  |module_45                |    55|
+|49    |            reg_1      |reg__parameterized0_65   |    52|
+|50    |          update_mod10 |module_46                |    38|
+|51    |            reg_1      |reg__parameterized0_64   |    35|
+|52    |          update_mod11 |module_47                |     4|
+|53    |          update_mod2  |module_48                |    55|
+|54    |            reg_1      |reg__parameterized0_63   |    52|
+|55    |          update_mod3  |module_49                |    57|
+|56    |            reg_1      |reg__parameterized0_62   |    54|
+|57    |          update_mod4  |module_50                |    57|
+|58    |            reg_1      |reg__parameterized0_61   |    54|
+|59    |          update_mod5  |module_51                |    57|
+|60    |            reg_1      |reg__parameterized0_60   |    54|
+|61    |          update_mod6  |module_52                |    57|
+|62    |            reg_1      |reg__parameterized0_59   |    54|
+|63    |          update_mod7  |module_53                |    57|
+|64    |            reg_1      |reg__parameterized0_58   |    54|
+|65    |          update_mod8  |module_54                |    57|
+|66    |            reg_1      |reg__parameterized0_57   |    54|
+|67    |          update_mod9  |module_55                |    57|
+|68    |            reg_1      |reg__parameterized0_56   |    54|
+|69    |      reg10_GainOut    |reg_12                   |    28|
+|70    |      reg11_LossOut    |reg_13                   |    18|
+|71    |      reg3             |reg__parameterized1      |    27|
+|72    |    gain_module1       |gain_module              |   357|
+|73    |      ROM_inst1        |ROM_7                    |   139|
+|74    |      ROM_inst2        |ROM_8                    |   115|
+|75    |      reg2_inst        |reg_9                    |    23|
+|76    |      reg3_inst        |reg_10                   |    59|
+|77    |      reg4_inst        |reg_11                   |    14|
+|78    |    loss_module1       |loss_module              |   355|
+|79    |      ROM_inst1        |ROM                      |   132|
+|80    |      ROM_inst2        |ROM_3                    |   117|
+|81    |      reg5_inst        |reg_4                    |    27|
+|82    |      reg6_inst        |reg_5                    |    58|
+|83    |      reg7_inst        |reg_6                    |    14|
+|84    |    reg9_Previous_rsi  |\reg                     |    18|
+|85    |    reg_1              |reg_0                    |    20|
+|86    |    reg_diff_gain      |reg_1                    |    32|
+|87    |    reg_diff_loss      |reg_2                    |    32|
++------+-----------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:05:23 ; elapsed = 00:05:29 . Memory (MB): peak = 937.305 ; gain = 624.680
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 185 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:04:55 ; elapsed = 00:05:13 . Memory (MB): peak = 937.305 ; gain = 270.117
+Synthesis Optimization Complete : Time (s): cpu = 00:05:23 ; elapsed = 00:05:30 . Memory (MB): peak = 937.305 ; gain = 624.680
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 259 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 24 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+244 Infos, 163 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:05:27 ; elapsed = 00:05:35 . Memory (MB): peak = 937.305 ; gain = 637.336
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Abdullah Data/Final Implemented Design/RSI/Rsi_complete/Rsi_complete.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 937.305 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  6 17:13:28 2022...

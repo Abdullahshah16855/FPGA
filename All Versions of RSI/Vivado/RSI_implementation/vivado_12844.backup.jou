@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct  4 10:07:16 2022
+# Process ID: 12844
+# Current directory: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13840 C:\Abdullah Data\Technical indicators\RSI\Vivado\RSI_implementation\RSI_implementation.xpr
+# Log file: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/vivado.log
+# Journal file: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/RSI_implementation.xpr}
+launch_simulation
+source top_tb.tcl
+update_compile_order -fileset sources_1
+open_wave_config {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/top_tb_behav1.wcfg}
+open_wave_config {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/top_tb_behav1.wcfg}
+restart
+run 24 us
+run 24 us
+relaunch_sim
+run 24 us
+add_files -norecurse {{C:/Abdullah Data/Technical indicators/RSI/Vivado/ROM_128.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+run 24 us
+save_wave_config {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/top_tb_behav1.wcfg}
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing -from [get_pins {datapath_inst/reg_Ef/output_reg[4]/C}] -to [get_pins {datapath_inst/reg_Previous_rsi/output_reg[19]/D}] -delay_type min_max -max_paths 10 -sort_by group -input_pins -routable_nets -name timing_2
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 27 12:15:54 2022
+# Process ID: 10072
+# Current directory: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6404 C:\Abdullah Data\Technical indicators\RSI\Vivado\RSI_implementation\RSI_implementation.xpr
+# Log file: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/vivado.log
+# Journal file: C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Abdullah Data/Technical indicators/RSI/Vivado/RSI_implementation/RSI_implementation.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+save_constraints
